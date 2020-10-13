@@ -77,6 +77,8 @@
 git clone https://github.com/lin-xin/vue-manage-system.git      // 把模板下载到本地
 cd vue-manage-system    // 进入模板目录
 npm install         // 安装项目依赖，等待安装完成之后，安装失败可用 cnpm 或 yarn
+//我使用的是npm 6.14.8,install失败，所以执行安装 npm install -g cnpm --registry=http://registry.npm.taobao.org，然后cnpm install 
+//cnpm run serve跑不起来，需要将vue.config.js 的 baseUrl改成 publicPath
 
 // 开启服务器，浏览器访问 http://localhost:8080
 npm run serve
